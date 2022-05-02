@@ -1,0 +1,7 @@
+{
+  "log": {
+    "prefix": "log",
+    "body": "console.log(\"${CLIPBOARD}\", ${CLIPBOARD})",
+    "description": "write console.log codes with current Clipboard value"
+  }
+}
