@@ -1,0 +1,27 @@
+{
+  "initialize prettyprint": {
+    "prefix": "pprint",
+    "body": [
+      "pprint::PrettyPrinter printer;"
+    ],
+    "description": "initialize prettyprint"
+  },
+  "normal cout": {
+    "prefix": "ncout",
+    "body": [
+      "cout << $1 << endl;"
+    ],
+    "description": "normal cout"
+  },
+  "yesno": {
+    "prefix": "yesno",
+    "body": [
+      "if ($1) {",
+      "  cout << \"Yes\" << endl;",
+      "} else {",
+      "  cout << \"No\" << endl;",
+      "}"
+    ],
+    "description": "yesno"
+  }
+}
